@@ -1,7 +1,7 @@
 <template>
   <div id="app">
    
-    <Header :menu="nav"/>
+    <Header :menu="nav2"/>
     <Main />
     <Footer />
   </div>
@@ -12,17 +12,42 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 
-
 export default {
   name: 'App',
   components: {
     Header,
     Main,
-    Footer
+    Footer,
   },
   data() {
     return {
-      nav : ["Home","Apple","Microsoft","Android","Forums","Contact us"],
+      nav2 : [
+        {
+          testo : "Home",
+          visualizza : false
+        },
+        {
+          testo : "Apple",
+          visualizza : false
+        },
+        {
+          testo : "Microsoft",
+          visualizza : false
+        },
+        {
+          testo : "Android",
+          visualizza : false
+        },
+        {
+          testo : "Forums",
+          visualizza : false
+        },
+        {
+          testo : "Contact us",
+          visualizza : false
+        }
+
+      ]
     }
   },
 
