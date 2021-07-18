@@ -1,7 +1,7 @@
 <template>
   <div class="header_wrap ">
       <!-- Header -->
-      <div class="container d-flex justify-content-around align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
             <div class="img_container">
                 <img class="p-2" :src="require('@/assets/images/logo.png')" alt="logo">
             </div>
@@ -15,7 +15,7 @@
                     <!-- v-if="(element.testo != 'Forums') così stampo a schermo la arrow-down all'interno di Dropdown -->
                     <div v-if="(element.testo != 'Forums') && (element.visualizza == true)" class="arrow-down"></div>
                 </li>
-                <li class="ps-1"><span class="btn btn-dark px-4 text-uppercase">join us</span></li>
+                <ButtonBlue :color="'dark'" :textButton="'Join Us'"/>
                 <li><i class="fas fa-search ps-5 fs_6 align-middle"></i></li>
             </ul>
            
@@ -26,10 +26,12 @@
 
 <script>
 import Dropdown from './Dropdown.vue'
+import ButtonBlue from './ButtonBlue.vue'
 export default {
     name:"Header",
     components: {
         Dropdown,
+        ButtonBlue
     },
     props:{
         //props in arrivo dal padre app
@@ -68,13 +70,13 @@ export default {
                 color: $white;
                 font-weight: bold;
               
-                .btn.btn-dark{
-                    font-weight: bold !important;
-                    &:hover{
-                        background-color: $salmon;
-                        border-color: $salmon;
-                    }
-                }
+                // .btn.btn-dark{
+                //     font-weight: bold !important;
+                //     &:hover{
+                //         background-color: $salmon;
+                //         border-color: $salmon;
+                //     }
+                // }
             }
 
         }

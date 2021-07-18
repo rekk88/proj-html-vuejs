@@ -2,7 +2,7 @@
   <div id="app">
    
     <Header :menu="nav2"/>
-    <Main />
+    <Main /> <!-- sons : Jumbotron,-->
     <Footer />
   </div>
 </template>

@@ -10,6 +10,7 @@
     font-size: 1rem !important;
 }
 
+//arrows
 .arrow-down{
     // display: none;
     width: 0;
@@ -35,4 +36,11 @@
     left: 50%;
     transform: translateX(-50%);
     // z-index: -1;
+}
+
+//buttons 
+.btn-blue{
+    color: #fff;
+    background-color: $eastern_blue;
+    border-color: $eastern_blue;
 }
