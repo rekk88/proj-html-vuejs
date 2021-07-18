@@ -52,7 +52,6 @@ export default {
 }
 .arrow-up{
     top: 80px;
-    // color: $white;
     border-bottom-color: $white;
 }
 .test{

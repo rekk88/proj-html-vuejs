@@ -50,6 +50,10 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/colors.scss';
     .header_wrap{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
         background-color: $eastern_blue;
         .container{
             height: 70px;
