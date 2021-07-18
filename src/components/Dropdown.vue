@@ -3,12 +3,11 @@
 
       <span>Forum</span>
       <div class="arrow-down" v-if="visible" @mouseenter="(visible = true)"></div>
+      <div class="arrow-up" v-if="visible" @mouseenter="(visible = true)"></div>
 
       <div class="menu" v-if="visible"> <!-- v-if="visible"-->
           <ul class="px-3">
-              <li class="py-3">item 1 Lorem, ipsum dolor.</li>
-              <li class="py-3">item 2</li>
-              <li class="py-3">item 3</li>
+              <li v-for="(item,index) in items" :key="index" class="py-3">{{item}}</li>
           </ul>
       </div>
   </div>
@@ -19,8 +18,8 @@ export default {
     name:"Dropdown",
     data() {
         return {
-            // listOne: false,
-            visible : false
+            visible : false,
+            items : ["Apple","Android","Microsoft","Apps & Software","Gadgets & Stuff","General Discussion","News & Community","Tutorials & Guide"]
         }
     },
     props:{
@@ -36,9 +35,9 @@ export default {
     position: absolute;
     color: black;
     // bottom: 100%;
-    top: 80px;
+    top: 90px;
     border: 1px solid black; //debug
-    background-color: yellow; //debug
+    background-color: $white; //debug
     ul{
         li{
             list-style: none;
@@ -50,6 +49,11 @@ export default {
         }
     }
  
+}
+.arrow-up{
+    top: 80px;
+    // color: $white;
+    border-bottom-color: $white;
 }
 .test{
     display: block !important;
