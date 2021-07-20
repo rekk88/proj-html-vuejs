@@ -10,6 +10,16 @@
     font-size: 1rem !important;
 }
 
+//padding & margin
+.py_6{
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+.py_7{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
 //arrows
 .arrow-down{
     // display: none;
@@ -30,7 +40,7 @@
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid $eastern_blue;
+    border-bottom: 10px solid $white;
     position: absolute;
     top: 70px;
     left: 50%;

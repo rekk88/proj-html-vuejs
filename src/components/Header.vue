@@ -58,7 +58,7 @@ export default {
         right: 0;
         background-color: $eastern_blue;
         .container{
-            height: 70px;
+            height: 80px;
             .img_container{
                 height: 100%;
                 img{
