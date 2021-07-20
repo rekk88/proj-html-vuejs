@@ -21,12 +21,14 @@ name: "Hero"
 .hero_wrap{
     background-image: url("../assets/images/featured_article_1_bg.jpg"); //to enter as prop
     background-size: cover;
-    height: 600px;
-    position: relative;
+    // height: 600px;
+    // position: relative;
     .text_wrap{
-        position: absolute;
-        bottom: 100px;
+        // position: absolute;
+        // bottom: 100px;
         padding: 0px 50px;
+        padding-top: 20%;
+        padding-bottom: 10%;
     }
 }
 </style>
