@@ -2,12 +2,15 @@
   <div class="main_wrap">
       <Jumbotron />
       <SiteDesc />
+      <News />
   </div>
 </template>
 
 <script>
 import Jumbotron from './Jumbotron.vue'
 import SiteDesc from './SiteDesc.vue'
+import News from './News.vue'
+
 
 export default {
     name:"Main",
@@ -16,7 +19,8 @@ export default {
     },
     components:{
         Jumbotron,
-        SiteDesc
+        SiteDesc,
+        News
     }
 }
 </script>
