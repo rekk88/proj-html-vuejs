@@ -4,6 +4,7 @@
       <SiteDesc />
       <News />
       <BlogSection />
+      <Forum />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Jumbotron from './Jumbotron.vue'
 import SiteDesc from './SiteDesc.vue'
 import News from './News.vue'
 import BlogSection from './BlogSection.vue'
+import Forum from './Forum.vue'
 
 export default {
     name:"Main",
@@ -22,11 +24,16 @@ export default {
         Jumbotron,
         SiteDesc,
         News,
-        BlogSection
+        BlogSection,
+        Forum
     }
 }
 </script>
 
 <style lang="scss" scoped>
-    
+@import '@/style/colors';
+
+.main_wrap{
+    background-color: $light_grey;
+}
 </style>

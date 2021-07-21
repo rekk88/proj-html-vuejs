@@ -34,7 +34,7 @@ props:{
     margin-top: 6rem;
     margin-bottom: 6rem;
     h6{
-        word-spacing: 5px;
+        letter-spacing: 5px;
         color: $cape_code;
     }
     .underline{
