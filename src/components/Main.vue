@@ -5,6 +5,8 @@
       <News />
       <BlackSpacer :text="'read our blog ->'"/>
       <Forum />
+      <BlackSpacer :text="'go to our forum ->'"/>
+      <Community />
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import SiteDesc from './SiteDesc.vue'
 import News from './News.vue'
 import BlackSpacer from './BlackSpacer.vue'
 import Forum from './Forum.vue'
+import Community from './Community.vue'
+
 
 export default {
     name:"Main",
@@ -25,7 +29,8 @@ export default {
         SiteDesc,
         News,
         BlackSpacer,
-        Forum
+        Forum,
+        Community
     }
 }
 </script>

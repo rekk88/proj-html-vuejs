@@ -32,8 +32,6 @@
           </div>
       </div>
       <!-- end gallery second row -->
-      
-      gallery test
   </div>
 </template>
 
