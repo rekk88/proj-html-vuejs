@@ -15,7 +15,7 @@
                     <!-- v-if="(element.testo != 'Forums') così stampo a schermo la arrow-down all'interno di Dropdown -->
                     <div v-if="(element.testo != 'Forums') && (element.visualizza == true)" class="arrow-down"></div>
                 </li>
-                <ButtonBlue :color="'dark'" :textButton="'Join Us'"/>
+                <Button :color="'dark'" :textButton="'Join Us'" :paddinTopBottom="'0.5rem'" :paddingLeftRight="'1rem'"/>
                 <li><i class="fas fa-search ps-5 fs_6 align-middle"></i></li>
             </ul>
            
@@ -26,12 +26,12 @@
 
 <script>
 import Dropdown from './Dropdown.vue'
-import ButtonBlue from './ButtonBlue.vue'
+import Button from './Button.vue'
 export default {
     name:"Header",
     components: {
         Dropdown,
-        ButtonBlue
+        Button
     },
     props:{
         //props in arrivo dal padre app

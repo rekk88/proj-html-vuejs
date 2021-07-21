@@ -5,19 +5,19 @@
             <h1 class="my-0">Tech Forum!</h1>
             <p class="pb-5 my-0">Discuss all the latest technology news and trends</p>
             <!-- <div class="btn btn-dark">Button</div> -->
-            <ButtonBlue :color="'blue'" :textButton="'Get avada now! >'"/>
+            <Button :color="'blue'" :textButton="'Get avada now! >'" :paddinTopBottom="'0.7rem'" :paddingLeftRight="'2.5rem'"/>
           </div>
       </div>
   </div>
 </template>
 
 <script>
-import ButtonBlue from './ButtonBlue.vue'
+import Button from './Button.vue'
 
 export default {
     name:"Jumbotron",
     components:{
-        ButtonBlue
+        Button
     }
 }
 </script>

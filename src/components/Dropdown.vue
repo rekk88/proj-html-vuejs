@@ -35,7 +35,7 @@ export default {
     position: absolute;
     color: black;
     // bottom: 100%;
-    top: 90px;
+    top: 94px;
     border: 1px solid black; //debug
     background-color: $white; //debug
     ul{
@@ -51,7 +51,7 @@ export default {
  
 }
 .arrow-up{
-    top: 80px;
+    top: 84px;
     border-bottom-color: $white;
 }
 .test{
