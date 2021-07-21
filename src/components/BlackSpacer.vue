@@ -1,7 +1,7 @@
 <template>
        <div class="blog">
       <div class="blog_text text-center fw-bold fs-5 text-uppercase">
-          read our blog ->
+          {{text}}
       </div>
   </div>
  
@@ -9,7 +9,10 @@
 
 <script>
 export default {
-name:"BlogSection"
+name:"BlackSpacer",
+props:{
+    text : String
+}
 }
 </script>
 

@@ -51,7 +51,5 @@ components:{
 </script>
 
 <style lang="scss" scoped>
-.gallery_wrap{
-    // background-color: lightblue; //debug
-}
+
 </style>

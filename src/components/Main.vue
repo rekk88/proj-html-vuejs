@@ -3,7 +3,7 @@
       <Jumbotron />
       <SiteDesc />
       <News />
-      <BlogSection />
+      <BlackSpacer :text="'read our blog ->'"/>
       <Forum />
   </div>
 </template>
@@ -12,7 +12,7 @@
 import Jumbotron from './Jumbotron.vue'
 import SiteDesc from './SiteDesc.vue'
 import News from './News.vue'
-import BlogSection from './BlogSection.vue'
+import BlackSpacer from './BlackSpacer.vue'
 import Forum from './Forum.vue'
 
 export default {
@@ -24,7 +24,7 @@ export default {
         Jumbotron,
         SiteDesc,
         News,
-        BlogSection,
+        BlackSpacer,
         Forum
     }
 }
