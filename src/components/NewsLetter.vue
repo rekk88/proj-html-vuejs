@@ -2,7 +2,7 @@
   <div class="newsLetter_wrap text-center py-5">
       <h3>Subscribe to our newsletter</h3>
       <div>
-          <input type="text" placeholder="Email : ">
+          <input class="me-2" type="text" placeholder="Email : ">
           <Button :color="'black'" :textButton="'Sign up >'" :paddinTopBottom="'0.4rem'" :paddingLeftRight="'2.5rem'"/>
           
       </div>
