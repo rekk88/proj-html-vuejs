@@ -3,6 +3,7 @@
       <Jumbotron />
       <SiteDesc />
       <News />
+      <BlogSection />
   </div>
 </template>
 
@@ -10,7 +11,7 @@
 import Jumbotron from './Jumbotron.vue'
 import SiteDesc from './SiteDesc.vue'
 import News from './News.vue'
-
+import BlogSection from './BlogSection.vue'
 
 export default {
     name:"Main",
@@ -20,7 +21,8 @@ export default {
     components:{
         Jumbotron,
         SiteDesc,
-        News
+        News,
+        BlogSection
     }
 }
 </script>

@@ -22,14 +22,15 @@
       </div>
       <!-- end card bottom row -->
       <!-- tutorials section -->
-      <div class="row">
-          <div class="sx col-7">
+      <div class="row my_7">
+          <div class="sx col-7 px-0">
               <Hero :titleH2="'Mauris viverra atisan ipsum eget felis prims efficitur varius'" :titleH6="'REVIEWED PRODUCT'" :background="require('../assets/images/featured_article_2_bg.jpg')"/>
           </div>
-          <div class="dx col-4 offset-1">col-4</div>
+          <div class="dx col-4 offset-1">
+              <Guides :titoloH2="'Tutorials & Guides'"/>
+          </div>
       </div>
       <!-- end tutorials section -->
-
   </div>
 </template>
 
@@ -37,6 +38,8 @@
 import SectionTitle from './SectionTitle.vue'
 import Card from './Card.vue'
 import Hero from './Hero.vue'
+import Guides from './Guides.vue'
+// import BlogSection from './BlogSection.vue'
 
 export default {
 name:"News",
@@ -46,17 +49,14 @@ props:{
 components:{
     SectionTitle,
     Card,
-    Hero
+    Hero,
+    Guides,
+    // BlogSection
 }
 
 }
 </script>
 
 <style lang="scss" scoped>
-.sx{
-    background-color: lightblue;
-}
-.dx{
-    background-color: lightseagreen;
-}
+
 </style>
