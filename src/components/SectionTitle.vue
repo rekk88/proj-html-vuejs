@@ -31,8 +31,8 @@ props:{
 @import '@/style/colors.scss';
 
 .secTitle_wrap{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     h6{
         letter-spacing: 5px;
         color: $cape_code;

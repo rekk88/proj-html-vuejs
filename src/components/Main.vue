@@ -7,6 +7,7 @@
       <Forum />
       <BlackSpacer :text="'go to our forum ->'"/>
       <Community />
+      <NewsLetter />
   </div>
 </template>
 
@@ -17,7 +18,7 @@ import News from './News.vue'
 import BlackSpacer from './BlackSpacer.vue'
 import Forum from './Forum.vue'
 import Community from './Community.vue'
-
+import NewsLetter from './NewsLetter.vue'
 
 export default {
     name:"Main",
@@ -30,7 +31,8 @@ export default {
         News,
         BlackSpacer,
         Forum,
-        Community
+        Community,
+        NewsLetter
     }
 }
 </script>
@@ -39,6 +41,6 @@ export default {
 @import '@/style/colors';
 
 .main_wrap{
-    background-color: $light_grey;
+    background-color: $white;
 }
 </style>

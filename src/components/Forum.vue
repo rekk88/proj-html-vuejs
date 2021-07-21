@@ -1,5 +1,5 @@
 <template>
-<div class="forum_wrap mb-5">
+<div class="forum_wrap pb-5">
     <SectionTitle :titoloh6="'PHASELLUS EGET METUS'" :titoloH2="'Forum Sections'"/>
     <ForumGallery />
 </div>
@@ -14,7 +14,6 @@ name:"Forum",
 components:{
     SectionTitle,
     ForumGallery
-
 }
 }
 </script>
