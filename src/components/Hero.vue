@@ -6,7 +6,7 @@
         <h2 class="fs-1 fw-bold py-3">{{titleH2}}</h2>
         <p class="fs-6">In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
         <!-- <div class="btn btn-dark">Button test</div> -->
-        <Button :color="'dark'" :textButton="'read more >'" :paddinTopBottom="'0.8rem'" :paddingLeftRight="'2.5rem'"/>
+        <Button :color="'black'" :textButton="'read more >'" :paddinTopBottom="'0.8rem'" :paddingLeftRight="'2.5rem'"/>
       </div>
       
   </div>

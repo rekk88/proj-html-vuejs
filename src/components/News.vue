@@ -11,7 +11,7 @@
       <!-- central row -->
       <div class="row row-cols-1 mx-1 py_6">
           <!-- test central row -->
-          <Hero :titleH2="'Cras malesuada et orci eget pharetra'" :titleH6="'FEATURED ARTICLE'" :background="'../assets/images/featured_article_1_bg.jpg'"/>
+          <Hero :titleH2="'Cras malesuada et orci eget pharetra'" :titleH6="'FEATURED ARTICLE'" :background="require('@/assets/images/featured_article_1_bg.jpg')"/>
       </div>
       <!-- end central row -->
       <!-- card bottom row -->
@@ -24,7 +24,7 @@
       <!-- tutorials section -->
       <div class="row">
           <div class="sx col-7">
-              <Hero :titleH2="'Mauris viverra atisan ipsum eget felis prims efficitur varius'" :titleH6="'REVIEWED PRODUCT'" :background="'../assets/images/featured_article_1_bg.jpg'"/>
+              <Hero :titleH2="'Mauris viverra atisan ipsum eget felis prims efficitur varius'" :titleH6="'REVIEWED PRODUCT'" :background="require('../assets/images/featured_article_2_bg.jpg')"/>
           </div>
           <div class="dx col-4 offset-1">col-4</div>
       </div>

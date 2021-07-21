@@ -54,3 +54,13 @@
     background-color: $eastern_blue;
     border-color: $eastern_blue;
 }
+
+.btn-black{
+    color: white;
+    background-color: black;
+    border-color: black;
+    &:hover{
+        background-color: $salmon;
+        border-color: $salmon;
+    }
+}
